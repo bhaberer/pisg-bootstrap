@@ -1,0 +1,84 @@
+body { 
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+  background-color: #222;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+}
+.content { 
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+}
+.main_title { 
+  border-bottom: 2px solid black;
+  width: 90%;
+}
+table { 
+  width: 90% !important;
+}
+.runners-up { 
+  font-size: 10px;
+}
+
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #0b407a;
+}
+a:visited {
+	color: #0b407a;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0b407a;
+}
+a.background {
+	text-decoration: none;
+}
+a.background:link {
+	color: #0b407a;
+}
+a.background:visited {
+	color: #0b407a;
+}
+a.background:hover {
+	text-decoration: underline;
+	color: #0b407a;
+}
+
+.male, .male a {
+	color: #0000DD;
+}
+.female, .female a {
+	color: #DD3366;
+}
+.bot, .bot a {
+	color: #00FFFF;
+}
+.title {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.headtext {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: #666699;
+}
+.headlinebg {
+	background-color: #000000;
+}
+.small {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+}
+.asmall {
+	font-family: "Arial narrow", Arial, sans-serif;
+	font-size: 10px;
+	color: black;
+	text-align: center;
+}
