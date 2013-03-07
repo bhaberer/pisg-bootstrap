@@ -262,10 +262,21 @@ HTML
       _html($self->{cfg}->{navbarlinks});
       _html('</ul>');
     }
-    _html('</div></div></div>');
-    _html('<div class="container"><div class="row"><div class="content span10 offset1">
-           <p class="subtitle"><span id="pagetitle2">' . $self->_template_text('pagetitle2', %hash) . ' ' . $self->get_time() . '</span><br />');
-    _html('<span id="pagetitle3">' . $self->_template_text('pagetitle3', %hash) . '</span></p>');
+    _html('</div></div></div>
+          <div class="container">
+            <div class="row">
+              <div class="content span10 offset1">
+                <div class="well">
+                  <p class="subtitle">
+                    <span id="pagetitle2">
+                      ' . $self->_template_text('pagetitle2', %hash) . ' ' . $self->get_time() . '
+                    </span>
+                    <br />
+                    <span id="pagetitle3">
+                      ' . $self->_template_text('pagetitle3', %hash) . '
+                    </span>
+                  </p>
+                </div>');
 
 }
 
